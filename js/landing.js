@@ -1,3 +1,5 @@
+
+
 const STEP_LENGTH = 1;
 const CELL_SIZE = 10;
 const BORDER_WIDTH = 2;
@@ -898,8 +900,14 @@ document.getElementById('input').addEventListener('keypress', ({ keyCode, target
     }
 });
 
-shape.init();
-shape.print('Welcome');
+
+
+if ($(window).width() > 600) {
+    shape.init();
+    shape.print('Welcome');
+}
+
+    
 
 // prevent zoom
 document.addEventListener('touchmove', e => e.preventDefault());
