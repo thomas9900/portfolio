@@ -260,7 +260,8 @@ textarea {
   top: -10px; }
 
 .box1:hover .icon li a:hover {
-  background: #CC6666; }
+  background: #CC6666;
+  color: #ffffff; }
 
 .box1 .icon li:first-child a {
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s; }
