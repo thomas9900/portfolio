@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,6 @@
 </head>
 
 <body data-spy="scroll" data-target="#main-nav">
-
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a href="#home" class="navbar-brand">
@@ -42,22 +40,23 @@
     </div>
   </nav>
 
-
   <section id="home">
 <!-- 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
     <h1 id="mobile-header">Please use larger device to see the theme</h1>
-    <input type="text" id="input" placeholder="type something" value="#Web Developer" title="type and press enter"/>
+    <!-- <input type="text" id="input" placeholder="Type to display" value="Type to display" title="Type and press enter to display the text"/> -->
+    <span id="input">Portfolio</span>
   </section>
-
 
   <section id="about">
       <div class="container text-center">
           <h1 class="mt-5">About me</h1>
-          <p class="mt-4">I am a front-end/React developer, UI and UX designer from Estonia, Tallinn.<br>
+          <p class="mt-4">I'm a QA engineer (Cypress) and front-end developer (React), based in Tallinn, Estonia.<br> Also I'm interested and I enjoy working with UI and UX design. My career has been driven by a deep fascination with cutting-edge technology.<br> I thrive on tackling complex challenges, solving logical puzzles, and crafting elegant solutions that merge functionality with aesthetics.
+          </p>
+          <!-- <p class="mt-4">I am a front-end/React developer, UI and UX designer from Estonia, Tallinn.<br>
             I've always been fascinated by the latest and greatest tech, also I enjoy solving problems and designing something
             beautiful.
-          </p>
+          </p> -->
 
           <div class="row my-5">
             <h2 class="my-3">Skills</h2>
@@ -76,6 +75,8 @@
                   <i class="fab fa-css3-alt fa-3x m-3" style="color: #02a2ff;"></i><br>
                   <i class="fab fa-js fa-3x m-3" style="color: #dbd82e;"></i><br>
                   <i class="fab fa-react fa-3x m-3 " style="color: #3ae1ff;"></i><br>
+                  <img class="m-3" src="img/cypress-logo.svg" alt="" width="50" height="25" style="background-color: rgb(147, 255, 241);"><br>
+                  <img class="m-3" src="img/Typescript.svg.png" alt="" width="45" style="background-color: rgb(147, 255, 241);"><br>
                 </div>
                 <div class="col-3 text-start">
                   <i class="fab fa-bootstrap fa-3x m-3" style="color: #7e42d8;"></i><br>
@@ -83,42 +84,91 @@
                   <img class="m-3" src="img/jquery2.svg" alt="" width="45"><br>
                   <img class="" src="img/sql-server.svg" alt="" width="45" style="margin-top: 23px; margin-left: 15px; margin-bottom: 15px;"><br>
                   <img class="m-3" src="img/material-ui.svg" alt="" width="45"><br>
-                  
                 </div>
-                <div class="col-6">
+                <div class="col-3 text-end">
                   <i class="fab fa-github fa-3x m-3"></i><br>
                   <i class="fab fa-npm fa-3x m-3" style="color: #e43f3f;"></i><br>
                   <i class="fab fa-git-alt fa-3x m-3" style="color: #ff6262;"></i><br>
-                  <i class="fab fa-codepen fa-3x m-3"></i><br>
-                  <img class="m-3 " src="img/vscode.svg" alt="" width="40"><br>
+                  <img class="m-3" src="img/postman.svg" alt="" width="50"><br>
                   <img class="m-3" src="img/firebase.svg" alt="" width="40"><br>
+                </div>
+                <div class="col-3 text-start">
+                  <i class="fab fa-jira fa-3x m-3" style="color: #02a2ff;"></i><br>
+                  <img class="m-3 " src="img/vscode.svg" alt="" width="40"><br>
+                  <i class="fab fa-gitlab fa-3x m-3" style="color:#ff8431"></i><br>
+                  <i class="fab fa-ubuntu fa-3x m-3" style="color:#ffe9db"></i><br>
+                  <img class="m-3 " src="img/github-copilot.png" alt="" width="50"><br>
+                  <img class="m-3 " src="img/chatgpt-logo.webp" alt="" width="50"><br>
                 </div>
               </div>
             </div>
-
-
           </div>
-
       </div>
       <div class="text-center mb-5">
         <h2>Resume</h2>
-        <a href="https://drive.google.com/file/d/10lbGFZO6yrYg81MjQRoVYSf8nqEtO5ws/view" target="_blank">Click to open</a>
+        <a href="https://drive.google.com/file/d/1dt99JQ3dyriR45T3uYBv55II79yY3UOq/view" target="_blank">Click to open</a>
       </div>
-
-
   </section>
 <hr>
-
 
   <section id="projects">
     <div class="container mb-5">
       <h1 class="text-center my-5">Projects</h1>
+      <section>
+        <h2 class="text-center mb-5">Quality Assurance at Erply Software</h2>
       <div class="row">
         <div class="col-md-6 border p-4 box1">
-          <h3 class="text-center">Workforce Rent Company</h3>
+          <h3 class="text-center">Cypress Test Automation</h3>
+          <img class="img-fluid mx-auto d-block" src="img/cypress-pic.png" alt="Cypress">
+          <div class="box-content d-block">
+            <p class="title p-2">Development of Cypress UI automation code for a service management application from the ground up. The automated tests were crafted using manual test cases as a foundation. Under the guidance of our QA manager and drawing inspiration from our successful point-of-sale automation code, I ensured the creation of a robust and reliable test suite.<br> Used: Cypress & Typescript, Cucumber, Gitlab, Jira.</p>
+            <ul class="icon">
+              <li><a href="https://www.cypress.io/" target="_blank"><i class="fas fa-external-link-alt" target="_blank"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 border p-4 box1">
+          <h3 class="text-center">Service Management Application</h3>
+          <img class="img-fluid mx-auto d-block" src="img/erply-serviceapp.png" alt="Service-app">
+          <div class="box-content d-block">
+            <p class="title p-2">By following the principles of the software testing life cycle to ensure smooth production releases. Focusing on prioritizing critical areas, such as payments, and suggesting enhancements to streamline the development process. I thoroughly investigated edge cases and maintained close collaboration with both developers and product owners to achieve our quality objectives.<br> Used: Cypress, Jira, Scrum.</p>
+            <ul class="icon">
+              <li><a href="https://wiki.erply.com/" target="_blank"><i class="fas fa-external-link-alt" target="_blank"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 border p-4 box1">
+          <h3 class="text-center">Point-of-Sale System</h3>
+          <img class="img-fluid mx-auto d-block" src="img/erply-pos.png" alt="Erply-POS">
+          <div class="box-content d-block">
+            <p class="title p-2">The primary application at Erply is a point-of-sale system, integrated with the majority of Erply's other applications.<br> Used: Cypress for automated tests and Jira for manual test cases.</p>
+            <ul class="icon">
+              <li><a href="https://en.wikipedia.org/wiki/Erply" target="_blank"><i class="fab fa-wikipedia-w"></i></a></li>
+              <li><a href="https://erply.com/" target="_blank"><i class="fas fa-external-link-alt" target="_blank"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 border p-4 box1">
+          <h3 class="text-center">Hardware Integrations Testing</h3>
+          <img class="img-fluid mx-auto d-block" src="img/POS-hardware.png" alt="Hardware">
+          <div class="box-content d-block">
+            <p class="title p-2 small">I ensured a smooth workflow between hardware and software, documented outcomes, and investigated bugs and edge cases. I provided solutions while working with various hardware components, including cash registers, receipt printers, display units, and multiple bank terminals (such as Swedbank, Adyen, Cayan).</p>
+            <ul class="icon">
+              <li><a href="https://erply.com/services/point-of-sale-hardware/" target="_blank"><i class="fas fa-external-link-alt" target="_blank"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
+      <br>
+
+      <h2 class="text-center m-5">Front-End</h2>
+      <div class="row">
+        <div class="col-md-6 border p-4 box1">
+          <h3 class="text-center">HR Company</h3>
           <img class="img-fluid mx-auto d-block" src="img/nordscan-pic.png" alt="">
           <div class="box-content d-block">
-            <p class="title">A real business website made for Nordscan Group OÜ. UI and UX design by me.<br> Used: Bootstrap, SCSS, PHP.</p>
+            <p class="title p-2">Nordscan HR OÜ (HR agency) website.<br> Used: Bootstrap, SCSS, PHP.</p>
             <ul class="icon">
               <li><a href="https://github.com/thomas9900/nordscan" target="_blank"><i class="fab fa-github"></i></a></li>
               <li><a href="https://www.nordscan.ee/" target="_blank"><i class="fas fa-external-link-alt" target="_blank"></i></a></li>
@@ -126,10 +176,21 @@
           </div>
         </div>
         <div class="col-md-6 border p-4 box1">
+          <h3 class="text-center">Real Estate Website</h3>
+          <img class="img-fluid mx-auto d-block" src="img/rendin-pic.png" alt="">
+          <div class="box-content d-block">
+            <p class="title p-2">A real estate online platform called Rendin.<br> Used: React, CSS, Firebase.</p>
+            <ul class="icon">
+              <li><a href="https://github.com/thomas9900/rendin-project" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://rendin-realestate.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 border p-4 box1">
           <h3 class="text-center">Online Shop</h3>
           <img class="img-fluid mx-auto d-block" src="img/tommyshop-pic.png" alt="">
           <div class="box-content d-block">
-            <p class="title">An e-shop with a search engine using Ali Express API and axios.<br> Used: Vanilla Javascript, CSS.</p>
+            <p class="title p-2">An e-shop with a search engine using Ali Express API and axios.<br> Used: Vanilla Javascript & CSS.</p>
             <ul class="icon">
               <li><a href="https://github.com/thomas9900/Tommys-shop" target="_blank"><i class="fab fa-github"></i></a></li>
               <li><a href="https://tommys-shop-55fd2.web.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
@@ -137,21 +198,10 @@
           </div>
         </div>
         <div class="col-md-6 border p-4 box1">
-          <h3 class="text-center">Card Game</h3>
-          <img class="img-fluid mx-auto d-block" src="img/cardgame-pic.png" alt="">
-          <div class="box-content d-block">
-            <p class="title">A guessing card game.<br> Used: Vanilla Javascript, JSON, CSS.</p>
-            <ul class="icon">
-              <li><a href="https://github.com/thomas9900/animal-card-game" target="_blank"><i class="fab fa-github"></i></a></li>
-              <li><a href="https://animalcardgame.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 border p-4 box1">
-          <h3 class="text-center">Burger Builder App</h3>
+          <h3 class="text-center">Retro Burger Builder App</h3>
           <img class="img-fluid mx-auto d-block" src="img/burger2-pic.png" alt="">
           <div class="box-content d-block">
-            <p class="title">A burger builder app with login and placing orders.<br> Used: React & Redux, Firebase, CSS.</p>
+            <p class="title p-2">A burger builder app with login and placing orders.<br> Used: React & Redux, Firebase, CSS.</p>
             <ul class="icon">
               <li><a href="https://github.com/thomas9900/burgerBuilderApp" target="_blank"><i class="fab fa-github"></i></a>
               </li>
@@ -164,7 +214,7 @@
           <h3 class="text-center">Sushi Restaurant</h3>
           <img class="img-fluid mx-auto d-block" src="img/tommysushi-pic.png" alt="">
           <div class="box-content d-block">
-            <p class="title">A simple yet beautiful sushi restaurant website with CSS animations.<br> Used: Bootstrap, SCSS.</p>
+            <p class="title p-2">A simple yet beautiful sushi restaurant website with CSS animations.<br> Used: Bootstrap & SCSS.</p>
             <ul class="icon">
               <li><a href="https://github.com/thomas9900/tommys-sushi" target="_blank"><i class="fab fa-github"></i></a></li>
               <li><a href="https://tommys-sushi.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
@@ -172,10 +222,10 @@
           </div>
         </div>
         <div class="col-md-6 border p-4 box1">
-          <h3 class="text-center">RPG Game(unfinished)</h3>
+          <h3 class="text-center">RPG Game (unfinished)</h3>
           <img class="img-fluid mx-auto d-block" src="img/rpg-pic.png" alt="">
           <div class="box-content d-block">
-            <p class="title">A roguelike RPG.<br> Used: React & Redux.</p>
+            <p class="title p-2">A roguelike RPG.<br> Used: React & Redux.</p>
             <ul class="icon">
               <li><a href="https://github.com/thomas9900/react-forestGame" target="_blank"><i class="fab fa-github"></i></a></li>
               <li><a href="https://roguelike-rpg.web.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a></li>
@@ -186,7 +236,6 @@
     </div>
   </section>
   <hr>
-
 
   <section id="contact">
     <div class="container">
@@ -212,11 +261,10 @@
                   <a href="mailto:thomas.soolaid@gmail.com" class="fa-last">thomas.soolaid@gmail.com</a>
                 </li>
                 <li><i class="fas fa-map-marker-alt mt-4 fa-2x contact-fa"></i><br>
-                  <a class="">Eesti, Tallinn</a>
+                  <a class="">Estonia, Tallinn</a>
                 </li>
               </ul>
         </div>
-        
       </div>
       <div class="container mt-5">
         <hr>
@@ -225,11 +273,10 @@
             <p class="copyright-text">&copy; <span id="year"></span> Thomas Soolaid
             </p>
           </div>
-    
           <div class="col-md-4 col-sm-6 col-xs-12 mb-3">
             <ul class="social-icons">
               <li><a class="github" target="_blank" href="https://github.com/thomas9900"><i class="fab fa-github"></i></a></li>
-              <li><a class="facebook" target="_blank" href="https://www.facebook.com/thomas.soolaid"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="facebook" target="_blank" href="https://www.linkedin.com/in/thomas-soolaid/"><i class="fab fa-linkedin"></i></a></li>
               <li><a class="instagram" target="_blank" href="https://www.instagram.com/thomas.soolaid/"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
@@ -245,11 +292,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-
     <script src="js/app.js"></script>
     <script src="js/landing.js"></script>
-
-
 </body>
-
 </html>

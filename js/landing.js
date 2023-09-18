@@ -904,7 +904,7 @@ document.getElementById('input').addEventListener('keypress', ({ keyCode, target
 
 if ($(window).width() > 600) {
     shape.init();
-    shape.print('Welcome');
+    shape.print('Web Dev');
 }
 
     
